@@ -10,6 +10,9 @@ array << 'second'
 
 p array  # ['first', 'second']
 
+# 要素の足し算
+p ['a', 'b', 'c'] + ['d', 'c']
+
 # 要素の引き算
 p ['a', 'b', 'c'] - ['c']  # ['a', 'b']
 

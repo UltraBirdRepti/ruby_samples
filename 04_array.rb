@@ -27,3 +27,8 @@ p delete_array.delete('b') # => 'b'
 p delete_array.delete_at(0) # => 'a'
 
 p delete_array
+
+# 要素の切り出し(取得)
+array = ['a', 'b', 'c']
+p array[0]        # => 'a'
+p array.slice(0)  # => 'a'

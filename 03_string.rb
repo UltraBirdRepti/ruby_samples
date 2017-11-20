@@ -22,3 +22,8 @@ p str.equal?('str') # false
 str = 'abcdef'
 str[0] = 'A'
 p str   # 'Abcdef'
+
+# 置換
+# sub()
+str = 'abcdef'
+p str.sub('ab', 'AB')

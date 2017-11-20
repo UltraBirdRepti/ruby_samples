@@ -18,4 +18,7 @@ str1 = str
 p str.equal?(str1)  # true
 p str.equal?('str') # false 
 
-
+# 変更
+str = 'abcdef'
+str[0] = 'A'
+p str   # 'Abcdef'

@@ -25,5 +25,9 @@ p str   # 'Abcdef'
 
 # 置換
 # sub()
-str = 'abcdef'
+str = 'abcabc'
 p str.sub('ab', 'AB')
+
+# gsub()
+str = 'abcabc'
+p str.gsub('ab', 'AB')

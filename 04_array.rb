@@ -32,3 +32,6 @@ p delete_array
 array = ['a', 'b', 'c']
 p array[0]        # => 'a'
 p array.slice(0)  # => 'a'
+
+# 要素の削除
+p ['a', 'b'].delete_at(0)

@@ -37,3 +37,5 @@ p array.slice(0)  # => 'a'
 p ['a', 'b'].delete('a')
 
 p ['a', 'b'].delete_at(0)
+
+p ['a', 'b'].delete_if{|e| e == 'a'}

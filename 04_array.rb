@@ -22,20 +22,15 @@ p ['a'] * 3
 # 要素の削除
 delete_array = ['a', 'b', 'c']
 # 指定した要素を削除
-p delete_array.delete('b') # => 'b'
-# 指定した要素順にある要素を削除
-p delete_array.delete_at(0) # => 'a'
+p ['a', 'b'].delete('a')
 
-p delete_array
+# 指定した要素順にある要素を削除
+p ['a', 'b'].delete_at(0)
+
+# 条件式によって要素を削除
+p ['a', 'b'].delete_if{|e| e == 'a'}
+
 
 # 要素の切り出し(取得)
 array = ['a', 'b', 'c']
 p array[0]        # => 'a'
-p array.slice(0)  # => 'a'
-
-# 要素の削除
-p ['a', 'b'].delete('a')
-
-p ['a', 'b'].delete_at(0)
-
-p ['a', 'b'].delete_if{|e| e == 'a'}

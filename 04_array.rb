@@ -34,3 +34,8 @@ p ['a', 'b'].delete_if{|e| e == 'a'}
 # 要素の切り出し(取得)
 array = ['a', 'b', 'c']
 p array[0]        # => 'a'
+
+# add element
+array = ['a', 'b']
+
+p array << 'c'

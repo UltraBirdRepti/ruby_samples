@@ -33,5 +33,9 @@ str = 'abcabc'
 p str.sub('ab', 'AB')
 
 # gsub()
-str = 'abcabc'
-p str.gsub('ab', 'AB')
+p 'abcabc'.gsub('ab', 'AB')
+
+# tr()
+p 'abcabc'.tr('a-c', 'A-C')
+
+

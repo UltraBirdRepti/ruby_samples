@@ -20,7 +20,6 @@ p ['a', 'b', 'c'] - ['c']  # ['a', 'b']
 p ['a'] * 3 
 
 # 要素の削除
-delete_array = ['a', 'b', 'c']
 # 指定した要素を削除
 p ['a', 'b'].delete('a')
 
@@ -32,10 +31,7 @@ p ['a', 'b'].delete_if{|e| e == 'a'}
 
 
 # 要素の切り出し(取得)
-array = ['a', 'b', 'c']
-p array[0]        # => 'a'
+p ['a', 'b', 'c'][0]        # => 'a'
 
 # add element
-array = ['a', 'b']
-
-p array << 'c'
+p ['a', 'b'] << 'c'

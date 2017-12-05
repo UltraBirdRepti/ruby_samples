@@ -24,8 +24,7 @@ str[0] = 'A'
 p str   # 'Abcdef'
 
 # 削除
-str = 'abcdef'
-p str.delete('a')
+p 'abcdefabcdef'.delete('a')
 
 # 置換
 # sub()

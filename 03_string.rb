@@ -42,3 +42,6 @@ p 'abcabc'.tr('a-c', 'A-C') # 'ABCABC'
 # tr_s()
 # 置換 + 重複を一文字に圧縮
 p 'aaabbbcabbbcc'.tr_s('a-c', 'A-C') # 'ABCABC'
+
+# squeeze
+p 'aaaaaaabbvvvvacccc'.squeeze

@@ -45,3 +45,7 @@ p 'aaabbbcabbbcc'.tr_s('a-c', 'A-C') # 'ABCABC'
 
 # squeeze
 p 'aaaaaaabbvvvvacccc'.squeeze
+
+# replace
+p 'aaaa'.replace('bbb')
+

@@ -49,3 +49,5 @@ p 'aaaaaaabbvvvvacccc'.squeeze
 # replace
 p 'aaaa'.replace('bbb')
 
+# 追加
+p 'aaa' + 'b'

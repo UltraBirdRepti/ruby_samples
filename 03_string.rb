@@ -51,3 +51,5 @@ p 'aaaa'.replace('bbb')
 
 # 追加
 p 'aaa' + 'b'
+
+p 'aaa' << 'b'

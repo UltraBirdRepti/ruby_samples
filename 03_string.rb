@@ -53,3 +53,5 @@ p 'aaaa'.replace('bbb')
 p 'aaa' + 'b'
 
 p 'aaa' << 'b'
+
+p 'aaa'.concat('b')

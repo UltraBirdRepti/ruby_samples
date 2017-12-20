@@ -55,3 +55,6 @@ p 'aaa' + 'b'
 p 'aaa' << 'b'
 
 p 'aaa'.concat('b')
+
+# 大文字、小文字への変換
+p 'class'.capitalize  # Class 先頭を大文字にする

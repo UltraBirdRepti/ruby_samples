@@ -60,3 +60,5 @@ p 'aaa'.concat('b')
 p 'class'.capitalize  # Class 先頭を大文字にする
 
 p 'CLASS'.downcase
+
+p 'class'.upcase

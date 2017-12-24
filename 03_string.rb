@@ -64,3 +64,6 @@ p 'CLASS'.downcase
 p 'class'.upcase
 
 p 'cLaSs'.swapcase
+
+# 後ろの文字指定
+p 'abcd'.chomp

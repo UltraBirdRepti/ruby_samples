@@ -65,5 +65,5 @@ p 'class'.upcase
 
 p 'cLaSs'.swapcase
 
-# 後ろの文字指定
-p 'abcd'.chomp
+# 後ろの改行の削除
+p "abcd\n".chomp

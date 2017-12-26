@@ -67,3 +67,6 @@ p 'cLaSs'.swapcase
 
 # 後ろの改行の削除
 p "abcd\n".chomp
+
+# 前後のスペースを削除
+p ' ab cd '.strip

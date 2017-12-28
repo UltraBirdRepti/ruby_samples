@@ -72,3 +72,5 @@ p "abcd\n".chomp
 p ' ab cd '.strip
 
 p ' ab cd '.lstrip # 左のスペースを削除
+
+p ' ab cd '.rstrip

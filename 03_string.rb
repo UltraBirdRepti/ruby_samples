@@ -74,3 +74,6 @@ p ' ab cd '.strip
 p ' ab cd '.lstrip # 左のスペースを削除
 
 p ' ab cd '.rstrip
+
+# 文末の文字を削る
+p 'abcd'.chop

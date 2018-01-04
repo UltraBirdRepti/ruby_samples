@@ -80,3 +80,6 @@ p 'abcd'.chop
 
 # 文字の逆転
 p 'abcd'.reverse
+
+# 文字列の長さ
+p 'abc'.length

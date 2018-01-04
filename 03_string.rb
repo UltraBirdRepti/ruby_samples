@@ -77,3 +77,6 @@ p ' ab cd '.rstrip
 
 # 文末の文字を削る
 p 'abcd'.chop
+
+# 文字の逆転
+p 'abcd'.reverse

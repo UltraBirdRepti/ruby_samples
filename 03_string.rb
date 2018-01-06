@@ -85,3 +85,7 @@ p 'abcd'.reverse
 p 'abc'.length
 
 p 'abc'.size
+
+# 文字列のasciiを調べる
+p 'abc'.ascii_only?
+p 'あ'.ascii_only?

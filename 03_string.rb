@@ -83,3 +83,5 @@ p 'abcd'.reverse
 
 # 文字列の長さ
 p 'abc'.length
+
+p 'abc'.size

@@ -86,7 +86,11 @@ p 'abc'.length
 
 p 'abc'.size
 
+# 文字のカウント
+p 'abcabc'.count('a')
+
 # 文字列のasciiを調べる
 p 'abc'.ascii_only?
 p 'あ'.ascii_only?
 p '$'.ascii_only?
+

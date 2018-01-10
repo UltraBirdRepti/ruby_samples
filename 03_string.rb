@@ -94,3 +94,6 @@ p 'abc'.ascii_only?
 p 'あ'.ascii_only?
 p '$'.ascii_only?
 
+# 空文字判定
+p ''.empty?
+p 'abc'.empty?

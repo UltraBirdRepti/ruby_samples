@@ -97,3 +97,6 @@ p '$'.ascii_only?
 # 空文字判定
 p ''.empty?
 p 'abc'.empty?
+
+# 文字列の割り当て
+p 'a'.center(20)

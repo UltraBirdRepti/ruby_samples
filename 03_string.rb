@@ -100,3 +100,4 @@ p 'abc'.empty?
 
 # 文字列の割り当て
 p 'a'.center(20)
+p 'a'.center(20, '*')

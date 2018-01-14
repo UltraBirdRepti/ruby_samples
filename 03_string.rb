@@ -101,3 +101,6 @@ p 'abc'.empty?
 # 文字列の割り当て
 p 'a'.center(20)
 p 'a'.center(20, '*')
+
+# 右に文字列を割り当てる
+p 'a'.rjust(10, '*')

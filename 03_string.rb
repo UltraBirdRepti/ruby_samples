@@ -110,3 +110,7 @@ p 'a'.ljust(10, '*')
 
 # 非表示文字列を変換
 p "\taa".dump
+
+p "\naa".dump
+
+ 

@@ -114,3 +114,6 @@ p "\taa".dump
 p "\naa".dump
 
 p "aa".dump 
+
+# 文字が含まれているか？
+p 'abc'.include?('a')

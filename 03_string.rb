@@ -117,3 +117,5 @@ p "aa".dump
 
 # 文字が含まれているか？
 p 'abc'.include?('a')
+
+p 'abc'.include?('z')

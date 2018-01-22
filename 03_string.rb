@@ -119,3 +119,6 @@ p "aa".dump
 p 'abc'.include?('a')
 
 p 'abc'.include?('z')
+
+# 文字列の検索
+p 'abc'.index('a')

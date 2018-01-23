@@ -122,3 +122,5 @@ p 'abc'.include?('z')
 
 # 文字列の検索
 p 'abc'.index('a')
+
+p 'abc'.index('z')

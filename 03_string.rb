@@ -127,3 +127,5 @@ p 'abc'.index('z')
 
 # 右端から文字を検索
 p 'abc'.rindex('c')
+
+p 'abc'.rindex('z')

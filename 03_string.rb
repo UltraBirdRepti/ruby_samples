@@ -133,5 +133,4 @@ p 'abc'.rindex('z')
 # 正規表現
 p 'abcdef'.match(/c/)
 
-
 p 'abcdef'.match(/z/)

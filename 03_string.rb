@@ -137,3 +137,6 @@ p 'abcdef'.match(/z/)
 
 # マッチした文字列を返却
 p 'abcde'.scan(/[e-f]/)
+
+p 'abcde'.scan(/[x-z]/)
+

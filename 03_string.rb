@@ -140,3 +140,5 @@ p 'abcde'.scan(/[e-f]/)
 
 p 'abcde'.scan(/[x-z]/)
 
+# 次の文字列を求める
+p 'a'.next

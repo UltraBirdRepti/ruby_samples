@@ -144,3 +144,4 @@ p 'abcde'.scan(/[x-z]/)
 p 'a'.next
 
 p 'z'.next
+p '1'.next

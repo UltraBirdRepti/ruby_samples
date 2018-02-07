@@ -142,7 +142,6 @@ p 'abcde'.scan(/[x-z]/)
 
 # 次の文字列を求める
 p 'a'.next
-
 p 'z'.next
 p '1'.next
 p 'A'.next

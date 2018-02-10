@@ -145,3 +145,4 @@ p 'a'.next
 p 'z'.next
 p '1'.next
 p 'A'.next
+p 'Z'.next

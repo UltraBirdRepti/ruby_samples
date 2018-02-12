@@ -148,3 +148,4 @@ p 'A'.next
 p 'Z'.next
 
 p 'a'.succ
+p 'z'.succ

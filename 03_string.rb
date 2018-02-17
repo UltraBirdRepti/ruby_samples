@@ -150,4 +150,5 @@ p 'Z'.next
 p 'a'.succ
 p 'z'.succ
 p '1'.succ
-p 'A'.next
+p 'A'.sccc
+p 'Z'.succ

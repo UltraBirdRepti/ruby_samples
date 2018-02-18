@@ -155,3 +155,6 @@ p 'Z'.succ
 
 # チェックサムを返却する
 p 'ABCD'.hash
+
+# 文字列の繰り返し
+"abc¥ndef¥nfhi".each_line { | c | p c }

@@ -150,5 +150,8 @@ p 'Z'.next
 p 'a'.succ
 p 'z'.succ
 p '1'.succ
-p 'A'.sccc
+p 'A'.succ
 p 'Z'.succ
+
+# チェックサムを返却する
+p 'ABCD'.hash

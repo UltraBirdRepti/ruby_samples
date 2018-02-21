@@ -158,3 +158,4 @@ p 'ABCD'.hash
 
 # 文字列の繰り返し
 "abc¥ndef¥nfhi".each_line { | c | p c }
+"abc¥ndef¥nfhi".lines { | c | p c }

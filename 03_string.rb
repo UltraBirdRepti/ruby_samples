@@ -158,5 +158,9 @@ p 'ABCD'.hash
 p 'abcd'.hash
 
 # 文字列の繰り返し
-"abc¥ndef¥nfhi".each_line { | c | p c }
-"abc¥ndef¥nfhi".lines { | c | p c }
+p "abc¥ndef¥nfhi".each_line { | c | c }
+p "abc¥ndef¥nfhi".lines { | c | c }
+
+# byte ごとに繰り返す
+
+p "abc¥ndef¥nfhi".each_byte { | c | c }

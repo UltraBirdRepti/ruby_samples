@@ -162,5 +162,8 @@ p "abc\ndef¥nfhi".each_line { | c | c }
 p "abc¥ndef¥nfhi".lines { | c | c }
 
 # byte ごとに繰り返す
-p "abc¥ndef¥nfhi".each_byte { | c | c }
+p "abc\r\ndef¥nfhi".each_byte { | c | c }
 p "abc¥ndef¥nfhi".bytes { | c | c }
+
+# 指定された文字列まで上げる
+p 'a'.upto('c'){ |c| p c }

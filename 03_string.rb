@@ -167,3 +167,6 @@ p "abc¥ndef¥nfhi".bytes { | c | c }
 
 # 指定された文字列まで上げる
 p 'a'.upto('c'){ |c| p c }
+
+# 16進数
+p 'a'.hex

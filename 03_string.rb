@@ -171,3 +171,5 @@ p 'a'.upto('c'){ |c| p c }
 # 16進数
 p 'a'.hex
 p 'z'.hex
+p '1'.hex
+

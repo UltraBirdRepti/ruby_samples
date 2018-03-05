@@ -172,4 +172,5 @@ p 'a'.upto('c'){ |c| p c }
 p 'a'.hex
 p 'z'.hex
 p '1'.hex
+p 'A'.hex
 

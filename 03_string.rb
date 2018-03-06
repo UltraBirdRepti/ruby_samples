@@ -173,4 +173,5 @@ p 'a'.hex
 p 'z'.hex
 p '1'.hex
 p 'A'.hex
+p 'Z'.hex
 

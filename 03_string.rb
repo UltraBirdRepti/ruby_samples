@@ -175,3 +175,5 @@ p '1'.hex
 p 'A'.hex
 p 'Z'.hex
 
+# 8進数
+p '10'.oct

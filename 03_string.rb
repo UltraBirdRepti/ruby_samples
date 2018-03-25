@@ -183,4 +183,5 @@ p '7'.oct
 p '14'.oct
 p 'A'.oct
 p 'Z'.oct
+p '14'.oct
 

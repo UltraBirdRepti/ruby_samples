@@ -189,3 +189,4 @@ p '14'.oct
 p '123'.to_i
 p 'a'.to_i
 p ''.to_i
+p '1a2b3c'.to_i

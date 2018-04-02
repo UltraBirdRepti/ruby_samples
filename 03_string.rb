@@ -192,3 +192,6 @@ p ''.to_i
 p '1a2b3c'.to_i
 p '12b3c'.to_i
 p '1'.to_i
+
+# 10進数の少数
+p '123'.to_f

@@ -191,3 +191,4 @@ p 'a'.to_i
 p ''.to_i
 p '1a2b3c'.to_i
 p '12b3c'.to_i
+p '1'.to_i

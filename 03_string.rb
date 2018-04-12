@@ -198,3 +198,4 @@ p '123'.to_f
 p '123abc'.to_f
 p '1a2b3c'.to_f
 p ''.to_f
+p 'z'.to_f

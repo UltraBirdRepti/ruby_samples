@@ -35,3 +35,6 @@ p ['a', 'b', 'c'][0]        # => 'a'
 
 # add element
 p ['a', 'b'] << 'c'
+
+# concat
+p ['a', 'b'].concat(['d'])

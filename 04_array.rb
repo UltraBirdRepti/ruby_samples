@@ -38,3 +38,4 @@ p ['a', 'b'] << 'c'
 
 # concat
 p ['a', 'b'].concat(['d'])
+p ['a', 'b'].concat([])

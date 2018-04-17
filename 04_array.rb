@@ -37,5 +37,5 @@ p ['a', 'b', 'c'][0]        # => 'a'
 p ['a', 'b'] << 'c'
 
 # concat
-p ['a', 'b'].concat(['d'])
+p ['a', 'b'].concat(['d']) # ['a', 'b', 'd']
 p ['a', 'b'].concat([])

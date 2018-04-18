@@ -39,3 +39,6 @@ p ['a', 'b'] << 'c'
 # concat
 p ['a', 'b'].concat(['d']) # ['a', 'b', 'd']
 p ['a', 'b'].concat([])
+
+# insert
+p ['a', 'b'].insert(1, 'c')

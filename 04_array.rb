@@ -43,3 +43,6 @@ p ['a', 'b'].concat([])
 # insert
 p ['a', 'b'].insert(1, 'c')
 p ['a', 'b'].insert(5, 'c')
+
+# slice
+p ['a', 'b'].slice(0)

@@ -47,3 +47,4 @@ p ['a', 'b'].insert(5, 'c')
 # slice
 p ['a', 'b'].slice(0)
 p ['a', 'b'][0]
+p ['a', 'b'][2]

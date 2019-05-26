@@ -10,7 +10,7 @@ loop do
   if !array[-5..-1].nil?
     if array[-5..-1].join == 'ズンズンズンズンドコ'
       p 'KI・YO・SHI'
-      break;
+      break
     else
       array.shift
     end
